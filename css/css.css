@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+body { font-family: 'Inter Tight'; margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+.hidden-element { display: none; }
+
+.hero-button-text { color: #F58A07; }
+.hero-button:hover .hero-button-text { color: #00a7e1 !important; }
+
+.fade-in { opacity: 0; transition: opacity 0.8s ease-in-out; }
+
+.hamburger-menu { opacity: 0%; pointer-events: none; transition: 0.3s ease-in-out;}
+.hamburger-menu.active { opacity: 100%; pointer-events: all;}
+
+.dropdown:hover { cursor: pointer !important; }
+.dropdown-info:hover { cursor: default !important; }
+.dropdown-icon { transition: 0.3s ease-in-out; }
+.dropdown-info { display: none; }
+.dropdown-info.active { display: block; }
+
+.option-slider { float: left; transition: 0.3s ease-in-out; }
+.option-slider.active { float: right; }
